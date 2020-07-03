@@ -1,3 +1,8 @@
+---
+title: "Empower your SAP BPC standard edition with SQL inside the logic script editor"
+date: 2020-07-03
+---
+
 # Empower your SAP BPC standard edition with SQL inside the logic script editor
 
 SAP BPC standard is still alive, and support has been extended until 2027.  Therefore I would like to highlight some interesting possibilities you have when working with logic script in SAP BPC.  Performance of logic script has improved with BPC versions running on HANA, however the code is not executed completely in the database, except for the RUN_ALLOCATION statement. Logic script also offers the possibility to call Business Add-Ins (BAdIs) which allow you to custom develop your own logic using ABAP. With the creative use of BAdIs, one can write HANA SQL directly in the logic script editor or even store it in a flat file on the BPC file server.
